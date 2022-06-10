@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ParasitiferJavaApplication {
+public class CustomSystemApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ParasitiferJavaApplication.class, args);
+    public static void runForSpring(String[] args) {
+        SpringApplication.run(CustomSystemApplication.class, args);
     }
-
 }
